@@ -72,7 +72,7 @@ FixedBossDateData = []
 indexFixedBossname = []
 
 client = discord.Client()
-client = commands.Bot(command_prefix="", help_command = None, description='일상디코봇')
+client = commands.Bot(command_prefix="", help_command = None, description='유턴디코봇')
 
 access_token = os.environ["BOT_TOKEN"]			
 git_access_token = os.environ["GIT_TOKEN"]			
