@@ -1400,7 +1400,7 @@ while True:
 		global bossMungFlag
 
 		if ctx.message.channel.id == basicSetting[7]:
-			await ctx.send( '< 보탐봇 재접속 및 점검 중! 잠시만요! >', tts=False)
+			await ctx.send( '< 보탐봇 재접속! 점검 중! 잠시만요! >', tts=False)
 			await dbSave()
 			print("재접!점검!")
 			await voice_client1.disconnect()
